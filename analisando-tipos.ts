@@ -5,9 +5,13 @@
  *  podemos usar esse objeto onde a interface é esperada,
  * (neste caso em uma function)
  *  mesmo que não haja nenhuma relação declarativa entre os dois.
+ * 
+ *  Os relacionamentos entre os tipos são determinados pelas propriedades que eles contêm,
+ *  não se foram declarados com algum relacionamento específico.
  */
 
-interface PointLike {
+
+interface PointLike { //não está presente em nenhuma forma no tempo de execução.
     x: number;
     y: number;
 }
